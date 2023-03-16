@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export default class TagService {
-  findAll() {
-    return ['a', 'b'];
+  findAll(): string[] {
+    return ['a', 'b', 'c'];
   }
 }
